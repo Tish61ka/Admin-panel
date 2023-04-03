@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    margin-left: 20vw;
+    margin-top: 2vw;
+    width: 40vw;
+    height: 50vw;
+    border: 0.3vw solid rgb(176, 176, 176);
+    border-radius: 25px;
+    z-index: 1;
+}
+.banana{
+    width: 13vw;
+    position: absolute;
+    z-index: 3;
+    top: 16vw;
+    left: 41vw;
+}
+.horn{
+    width: 15vw;
+    position: relative;
+    bottom: -20vw;
+    left: 12vw;
+    z-index: 2;
+}
+.choc-horn{
+    width: 10vw;
+    position: relative;
+    bottom: -20vw;
+    left: 12vw;
+    z-index: 2;
+}
+a{
+    font-size: 25px;
+}
+.disabled{
+    pointer-events: none;
+}
+a:hover{
+    cursor: pointer;
+}
