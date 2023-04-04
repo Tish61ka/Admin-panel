@@ -481,12 +481,20 @@
          grid-template-columns: repeat(1, 1fr);
      }
 
-     .details table thead td {
-         font-size: 12px;
+     .card:last-child {
+         padding-bottom: 20px;
      }
 
-     .details table tbody td {
+     .details table thead td {
          font-size: 11px;
+     }
+
+     .details .recentOrders table td {
+         font-size: 11px;
+     }
+
+     .details .recentOrders table td:last-child {
+         font-size: 10px;
      }
 
      .cardHeader h2 {
